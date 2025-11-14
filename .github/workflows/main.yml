@@ -1,3 +1,4 @@
+run:
 name: CI/CD Wisecow
 
 on:
@@ -31,3 +32,4 @@ jobs:
           KUBECONFIG: ${{ secrets.KUBECONFIG }}
         run: |
           kubectl apply -f k8s/
+uses:
